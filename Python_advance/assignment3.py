@@ -13,7 +13,6 @@ arithmetic_operation("12 - 12") ➞ 24 // 12 - 12 = 0
 arithmetic_operation("12 * 12") ➞ 144 // 12 * 12 = 144
 arithmetic_operation("12 // 0") ➞ -1 // 12 / 0 = -1
 '''
-
 def arithmetic_operation(numeric_text):
     numeric_list = numeric_text.split()
     num1 = numeric_list[0]
